@@ -1,0 +1,37 @@
+# https://medium.com/analytics-vidhya/implementation-of-principal-component-analysis-pca-in-k-means-clustering-b4bc0aa79cb6 ==clusterin
+# https://365datascience.com/tutorials/python-tutorials/pca-k-means/      ===== for clustering
+# https://stackoverflow.com/questions/60020521/time-series-segmentation-in-python ==== segmentation
+import warnings
+import scipy.cluster.hierarchy as shc
+from sklearn.cluster import AgglomerativeClustering
+
+import time
+# import model2 as model2
+from matplotlib.colors import ListedColormap
+
+warnings.simplefilter(action='ignore', category=FutureWarning)
+#import inline as inline
+import matplotlib
+import numpy as np
+import pandas as pd
+from scipy.signal import find_peaks
+from sklearn.preprocessing import StandardScaler
+#from xlsxwriter import Workbook
+import csv as cv
+import matplotlib.pyplot as plt
+from pandas import ExcelWriter
+import warnings
+
+warnings.simplefilter(action='ignore', category=FutureWarning)
+import statistics
+from sklearn.metrics import silhouette_score
+from sklearn.cluster import KMeans
+#import control
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from openpyxl import Workbook
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.svm import SVC
